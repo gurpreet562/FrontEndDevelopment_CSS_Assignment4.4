@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gradient</title>
+<style>
+#container{
+clear:both;
+
+}
+#first{
+height:100px;
+background: -webkit-linear-gradient(left,red,yellow,green);
+-webkit-linear-gradient(to right,red,yellow,green);
+float:left;
+width:15%;
+margin:1%;
+}
+#second{
+height:100px;
+background-image:
+  radial-gradient(
+  circle at top,
+  yellow,
+  red,
+  green);
+float:left;
+width:15%;
+margin:1%;
+}
+#third{
+height:100px;
+background-image:
+radial-gradient(
+ellipse at top,
+yellow,
+red,
+green);
+float:left;
+
+width:15%;
+margin:1%;
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+<div id="first"></div>
+<div id="second"></div>
+<div id="third"></div>
+</div>
+</body>
+</html>
